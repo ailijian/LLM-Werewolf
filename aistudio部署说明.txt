@@ -1,0 +1,4 @@
+新建一个目录，把代码解压到该目录中
+部署包选新建那个目录
+环境安装命令：pip install -r requirements.txt
+服务启动命令：export ACCESS_TOKEN=你的ernie-sdk的token && uvicorn app.main:app --host 0.0.0.0 --port 8080
